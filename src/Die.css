@@ -1,0 +1,76 @@
+
+
+
+.fa, .fas {
+    font-size: 150px;
+}
+
+ /* .Die{
+     display:flex;
+    justify-content:space-between;
+    align-items: center;
+
+    /* flex-direction: column; */
+     
+   
+
+
+.shaking{
+      animation: wiggle 2.5s infinite;
+  
+  animation: shake-animation 4.72s ease infinite;
+  transform-origin: 50% 50%;
+}
+
+
+@keyframes shake-animation {
+   0% { transform:translate(0,0) }
+  1.78571% { transform:translate(5px,0) }
+  3.57143% { transform:translate(0,0) }
+  5.35714% { transform:translate(5px,0) }
+  7.14286% { transform:translate(0,0) }
+  8.92857% { transform:translate(5px,0) }
+  10.71429% { transform:translate(0,0) }
+  100% { transform:translate(0,0) }
+}
+
+.dice-container{
+    display:flex;
+    align-items: center;
+}
+
+.dice-container div{
+ margin-left:20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+button {
+  background-color: #a1a0a0; /* Green */
+  border: none;
+  color: #000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:540px) {
+
+    .dice-container{
+        display: block;
+    }
+    .dice-container div{
+         margin-left:initial;
+
+    }
+    
+}
